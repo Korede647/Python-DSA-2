@@ -6,6 +6,7 @@
 # Hint: Think of words as nodes and edges between words that differ by 1 letter
 
 from collections import deque
+
 def change_letter_dict(start, end, dictionary):
     if end not in dictionary:
         return []
